@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="response.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="background">
+        <div class="header">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-mug-hot fa-beat-fade"></i>
+            </a>
+
+            <nav class="menu">
+                <a href="#home">Home</a>
+                <a href="#aboutt">About</a>
+                <a href="#menu2">Menu</a>
+                <a href="#home">Products</a>
+                <a href="#home">Review</a>
+                <a href="#home">Contact</a>
+            </nav>
+
+            <div class="icons">
+
+                <input class="search" type="search" placeholder="Searach....">
+                <div id="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div id="buy-coffe"><i class="fa-solid fa-cart-shopping"><sup>0</sup></i></div>
+                <div id="account"><i class="fa-solid fa-user"></i></div>
+                <div id="bars"><i class="fa-solid fa-bars"></i></div>
+
+
+            </div>
+            <div class="cart-me">
+                <span id="cart-me-title">Cart</span>
+                <div class="buy-coffe">
+                    <!-- <span class="nobuy"> Bạn chưa mua hàng</span> -->
+                </div>
+                <div class="btn-buy">
+                    <button type="submit">Oder</button>
+                </div>
+                <div class="cart-princes">
+                    <span><sup>Price:</sup><sup class="numbers">0</sup><sup>$</sup></span>
+                </div>
+            </div>
+
+            <div class="account">
+                <div class="item">
+                    <h3>Sign In</h3>
+                    <label for="user">User</label>
+                    <input type="text" id="user" placeholder="User.....">
+
+                    <label for="password">Password</label>
+                    <input type="text" id="password" placeholder="Password....">
+
+                    <button type="submit" class="submit">Sign In</button>
+
+                    <a href="#">Sign Up</a>
+                </div>
+            </div>
+        </div>
+        <!-- end header -->
+    </div>
+    <div class="about" id="aboutt">
+        <h1>ABOUT US</h1>
+        <div class="content">
+            <div class="item-img">
+                <img class="silde render" src="/img/aboutus.jpg" alt="">
+                <img class="silde" src="/img/aboutus2.jpg" alt="">
+                <img class="silde" src="/img/aboutus3.jpg" alt="">
+                <img class="silde" src="/img/aboutus4.jpg" alt="">
+                <i class="fa-solid fa-chevron-right next" onclick="nextSlide()"></i>
+                <i class="fa-solid fa-chevron-left pev" onclick="prevSlide()"></i>
+            </div>
+            <div class="text-about">
+                <h2>Come to us, what do you have?</h2>
+                <p>Vietnamese Coffee (Phin): This method is popular in Southeast Asian countries. Coffee is brewed by placing a filter (a device with a mesh filter) on top of a cup, adding coffee grounds to the filter, and slowly pouring hot water into the
+                    filter. This process creates a rich and flavorful cup of coffee. Espresso: This method involves using an espresso machine. High pressure is applied to finely ground coffee beans, resulting in a short, concentrated shot of coffee with
+                    a smooth layer of crema on top. Pour-over: This method requires slowly pouring hot water over coffee grounds through a filter. The water flows through the filter, absorbing the flavors, and drips into a cup below, creating a pure and
+                    enjoyable cup of coffee. French Press: This method uses a pot and a plunger with a mesh filter to steep coarsely ground coffee with hot water. The plunger is then pressed down to separate the coffee grounds from the liquid, resulting
+                    in a rich and robust cup of coffee.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <!-- end about us -->
+    <div class="menus" id="menu2">
+        <h1>Menu</h1>
+        <div class="menu-itemss">
+            <div class="item-menu">
+                <img src="./img/img1.jpg" alt="">
+                <div class="prince">
+                    <h4>Coff2e</h4>
+                    <span>23$</span>
+                </div>
+                <button class="btn-cart">Add Cart</button>
+            </div>
+            <div class="item-menu">
+                <img src="./img/img1.jpg" alt="">
+                <div class="prince">
+                    <h4>Coffe3</h4>
+                    <span>54$</span>
+                </div>
+                <button class="btn-cart">Add Cart</button>
+            </div>
+            <div class="item-menu">
+                <img src="./img/img3.jpg" alt="">
+                <div class="prince">
+                    <h4>Cappuccino</h4>
+                    <span>65$</span>
+                </div>
+                <button class="btn-cart">Add Cart</button>
+            </div>
+            <div class="item-menu">
+                <img src="./img/img4.jpg" alt="">
+                <div class="prince">
+                    <h4>Espresso</h4>
+                    <span>56$</span>
+                </div>
+                <button class="btn-cart">Add Cart</button>
+            </div>
+            <div class="item-menu">
+                <img src="./img/img5.jpg" alt="">
+                <div class="prince">
+                    <h4>Vanilla Latie</h4>
+                    <span>63$</span>
+                </div>
+                <button class="btn-cart">Add Cart</button>
+            </div>
+            <div class="item-menu">
+                <img src="./img/img6.jpg" alt="">
+                <div class="prince">
+                    <h4>Caramel Machiato</h4>
+                    <span>632$</span>
+                </div>
+                <button class="btn-cart">Add Cart</button>
+            </div>
+            <div class="item-menu">
+                <img src="./img/img1.jpg" alt="">
+                <div class="prince">
+                    <h4>Coffe4</h4>
+                    <span>23$</span>
+                </div>
+                <button class="btn-cart">Add Cart</button>
+            </div>
+            <div class="item-menu">
+                <img src="./img/img1.jpg" alt="">
+                <div class="prince">
+                    <h4>Coffe5</h4>
+                    <span>23$</span>
+                </div>
+                <button class="btn-cart">Add Cart</button>
+            </div>
+
+
+
+        </div>
+
+        <!-- render -->
+    </div>
+    <div class="notification">
+    </div>
+
+    <div class="contact">
+        <h2>CONTACT</h2>
+        <div class="contact_container">
+            <img src="./img/map.jpg">
+            <div class="contact_input">
+                <h3> GET IN NOW</h3>
+                <input type="text" placeholder="User...">
+                <input type="email" placeholder="Email...">
+                <input type="number" placeholder="Phone....">
+
+                <button type="submit">Contact Now</button>
+
+
+            </div>
+
+        </div>
+        <!-- footer -->
+    </div>
+    <div class="footer">
+        <div class="footer_address">
+            <h4>Nguyen Van Toan</h4>
+            <span>toanvan1112001@gmail.com</span>
+            <span>0975982049</span>
+            <span>Tien Thinh - Me Linh - Ha Noi</span>
+        </div>
+        <div class="footer_contact">
+            <i>FB</i>
+            <i>Inta</i>
+            <i>Git</i>
+            <i>G</i>
+        </div>
+    </div>
+
+
+    <script src="javascrip.js"></script>
+    <script src="addcart.js"></script>
+</body>
+
+</html>

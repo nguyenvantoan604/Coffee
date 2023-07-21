@@ -1,0 +1,130 @@
+@media (max-width:991px) {
+    .header .icons #bars {
+        display: block;
+    }
+    .header .menu {
+        position: absolute;
+        background-color: white;
+        width: 300px;
+        top: 100%;
+        right: -100%;
+        height: calc(100vh - 100px);
+    }
+    .header .menu.active4 {
+        transition: all 0.5s;
+        right: 0;
+    }
+    .header .menu a {
+        color: black;
+        display: block;
+        padding: 10px 30px;
+    }
+    .header .menu a:hover {
+        background-color: bisque;
+        display: block;
+    }
+    .menus {
+        height: 100%;
+    }
+    .item-img i {
+        transform: translateY(-170%);
+    }
+    .content .item-img {
+        width: 100%;
+    }
+    .text-about {
+        width: 100%;
+        padding: 20px;
+    }
+    .content {
+        flex-wrap: wrap;
+    }
+    .about {
+        height: 100%;
+    }
+    .item-img i {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:740px) {
+    .header .icons #bars {
+        display: block;
+    }
+    .header .menu {
+        position: absolute;
+        background-color: white;
+        width: 300px;
+        top: 100%;
+        right: -100%;
+        height: calc(100vh - 100px);
+    }
+    .header .menu.active4 {
+        transition: all 0.5s;
+        right: 0;
+    }
+    .header .menu a {
+        color: black;
+        display: block;
+        padding: 10px 30px;
+    }
+    .header .menu a:hover {
+        background-color: bisque;
+        display: block;
+    }
+    .menus {
+        height: 100%;
+    }
+    .item-img i {
+        transform: translateY(-170%);
+    }
+    .cart-me {
+        right: -120%;
+        width: 300px;
+    }
+    .about {
+        height: 100%;
+    }
+    .content {
+        display: block;
+    }
+    .text-about,
+    .content .item-img {
+        width: 100%;
+    }
+    .text-about {
+        padding-bottom: 10px;
+    }
+    .text-about p {
+        line-height: 90%;
+        margin: 0 10px;
+    }
+    .buy-coffe .contain img {
+        height: 50px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    .buy-coffe .contain h3 {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .buy-coffe .contain .content {
+        position: absolute;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-right: 70px;
+        width: 50px;
+    }
+    .buy-coffe .contain .content .prince {
+        position: absolute;
+        font-size: 12px;
+        margin-top: 7px;
+        color: red;
+        margin-left: 37px;
+    }
+    .item-img i {
+        margin-top: 50px;
+    }
+}
